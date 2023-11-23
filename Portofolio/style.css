@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    background-image: url(background.jpg);
+    background-position: 0 0px;
+    background-size: cover;
+   
+    
+}
+
+header {
+    font-family: 'Ubuntu', sans-serif;
+    background-size: cover;
+    background-position: 0%;
+    background-color: #383535;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    display: grid;
+    justify-content: center;
+}
+
+header h1 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0 50px;
+    
+}
+
+header p {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    text-align: center;
+    font-size: larger;
+}
+
+section {
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+ section p{
+    font-family: 'Ubuntu', sans-serif;
+ }
+
+img {
+    max-width: 100%;
+    border-radius: 100px;
+    border: 5px solid rgb(44, 42, 165);
+}
+
+.skills, .projects, .resume, .contact {
+    margin-top: 20px;
+    
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+}
+.imgw{
+    margin-left: 60px;
+    display: block;
+    justify-content: center;
+    height: 120px;
+}
+
+.hh{
+    display: flex;
+    justify-content: center;
+}
